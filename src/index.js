@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import App from "./app";
 import CarsData from "./data/cars.json";
 import CategoriesData from "./data/categories.json";
 

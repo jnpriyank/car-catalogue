@@ -1,7 +1,7 @@
 import React from "react";
 import "./app.css";
 import {hot} from "react-hot-loader";
-import CarList from "./components/CarList";
+import CarList from "./components/carList";
 
 const App = (props) =>
 {

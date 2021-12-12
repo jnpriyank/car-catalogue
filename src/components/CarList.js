@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Car from "./Car";
-import CategoryList from "./CategoryList";
+import Car from "./car";
+import CategoryList from "./categoryList";
 
 const CarList = (props) => {
     const [selectedCategory, setSelectedCategory] = useState(props.categories[0].name);
