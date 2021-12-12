@@ -1,16 +1,15 @@
 import React from "react";
 import "./app.css";
 import {hot} from "react-hot-loader";
+import CarList from "./components/CarList";
 
-class App extends React.Component
+const App = (props) =>
 {
-    render(){
-        return (
-            <div className="app">
-                <h1>Hello Champion Ronak!</h1>
-            </div>
-        );
-    }
-}
+    return (
+        <div className="app">
+            <CarList categories={props.categories} cars={props.cars}></CarList>
+        </div>
+    );
+};
 
 export default hot(module)(App);

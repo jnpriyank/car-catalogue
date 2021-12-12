@@ -1,4 +1,93 @@
-.app {
+body {
     margin: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header > h1, h2 {
+    margin: 0px;
+}
+
+header > h1 {
+    font-size: 35px;
+}
+
+header > h2 {
+    font-size: 20px;
+}
+
+.car-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-list-container > .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-list-container > .header h1 {
+    text-transform: uppercase;
+    margin: 20px 0 0;
+}
+
+.car-list-container > .header h2 {
+    text-transform: uppercase;
+    margin: 20px 0 0;
+}
+
+.car-list-container > .header > .nav-categories {
+    align-self: stretch;
+    display: flex;
+    justify-content:center;
+    column-gap: 20px;
+    margin: 20px;
+}
+
+.car-list-container > .header > .nav-categories > .category {
+    cursor: pointer;
+}
+
+.car-list-container > .header > .nav-categories > .category.selected {
+    border-bottom: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.car-list-container > .body {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.car-list-container > .body > .body-item{
+    width: 200px;
+    height: 200px;
+    /* background-color: aquamarine; */
+    margin: 20px; 
+    /* flex-basis: 200px; */
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.car-list-container > .body > .body-item img {
+    width: 100%;
+}
+
+.car-list-container > .body > .body-item img:hover {
+    transform:scale(1.5);
+    transition-duration: 1s;
+}
+
+figcaption {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.car-wagonr {
+    /* src: url('../public/images/wagonr.png'); */
+    src: url('/public/images/wagonr.png');
 }
