@@ -7,7 +7,11 @@ const CategoryList = (props) => {
     }
 
     return (
-        props.categories.map((category) => <div className={"category" + (category.name === props.selectedCategory? " selected": "")} onClick={onClickHandler}>{category.name}</div> )
+        <>
+            {
+                props.categories.map((category) => <div key={category.id} className={"category" + (category.name === props.selectedCategory? " selected": "")} onClick={onClickHandler}>{category.name}</div> )
+            }
+        </>
     );
 };
 

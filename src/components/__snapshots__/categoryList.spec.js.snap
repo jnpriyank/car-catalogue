@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`category list component should be rendered successfully, When categories are passed 1`] = `
+<Fragment>
+  <div
+    className="category"
+    key="1"
+    onClick={[Function]}
+  >
+    Hatchbacks
+  </div>
+  <div
+    className="category selected"
+    key="2"
+    onClick={[Function]}
+  >
+    Vans
+  </div>
+</Fragment>
+`;
+
+exports[`category list component should not render anything, When categories are not passed 1`] = `null`;
