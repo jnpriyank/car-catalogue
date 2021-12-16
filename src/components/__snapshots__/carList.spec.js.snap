@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`car list component should not be rendered if there are no categories 1`] = `""`;

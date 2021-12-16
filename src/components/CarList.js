@@ -3,11 +3,15 @@ import Car from "./car";
 import CategoryList from "./categoryList";
 
 const CarList = (props) => {
-    const [selectedCategory, setSelectedCategory] = useState(props.categories[0].name);
+    const [selectedCategory, setSelectedCategory] = useState(props.categories? props.categories[0].name : "");
 
     const onCategoryChangeHandler = (category) => {
         setSelectedCategory(category);
     };
+
+    if(!props.categories || props.categories.length === 0){
+        return null;
+    }
 
     return (
         <div className="car-list-container">

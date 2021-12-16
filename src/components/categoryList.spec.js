@@ -3,7 +3,7 @@ import { shallow } from "enzyme";
 import CategoryList from "./categoryList";
 
 describe("category list component", () => {
-    it.only("should be rendered successfully, When categories are passed", () => {
+    it("should be rendered successfully, When categories are passed", () => {
         const categories = [
             {
                 id: 1,
