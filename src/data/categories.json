@@ -1,17 +1,17 @@
 [
-    {
-        "id": 1,
-        "name": "Hatchbacks",
-        "description": "Hatchbacks description"
-    },
-    {
-        "id": 2,
-        "name": "Vans",
-        "description": "Vans description"
-    },
-    {
-        "id": 3,
-        "name": "Sedans",
-        "description": "Sedans description"
-    }
+  {
+    "id": 1,
+    "name": "Hatchbacks",
+    "description": "Hatchbacks description"
+  },
+  {
+    "id": 2,
+    "name": "Vans",
+    "description": "Vans description"
+  },
+  {
+    "id": 3,
+    "name": "Sedans",
+    "description": "Sedans description"
+  }
 ]

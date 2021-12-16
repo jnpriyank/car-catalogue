@@ -1,44 +1,44 @@
 [
-    {
-        "id":1,
-        "name": "Wagon R",
-        "category": "Hatchbacks",
-        "imageName": "wagonr.png",
-        "description": "Wagon R description"
-    },
-    {
-        "id":2,
-        "name": "800",
-        "category": "Hatchbacks",
-        "imageName": "800.png",
-        "description": "800 description"
-    },
-    {
-        "id":3,
-        "name": "celerio",
-        "category": "Hatchbacks",
-        "imageName": "celerio.png",
-        "description": "celerio description"
-    },
-    {
-        "id":4,
-        "name": "swift",
-        "category": "Hatchbacks",
-        "imageName": "swift.png",
-        "description": "swift description"
-    },
-    {
-        "id":5,
-        "name": "eeco",
-        "category": "Vans",
-        "imageName": "eeco.png",
-        "description": "eeco description"
-    },
-    {
-        "id":6,
-        "name": "dzire",
-        "category": "Sedans",
-        "imageName": "dzire.png",
-        "description": "dzire description"
-    }
+  {
+    "id": 1,
+    "name": "Wagon R",
+    "category": "Hatchbacks",
+    "imageName": "wagonr.png",
+    "description": "Wagon R description"
+  },
+  {
+    "id": 2,
+    "name": "800",
+    "category": "Hatchbacks",
+    "imageName": "800.png",
+    "description": "800 description"
+  },
+  {
+    "id": 3,
+    "name": "celerio",
+    "category": "Hatchbacks",
+    "imageName": "celerio.png",
+    "description": "celerio description"
+  },
+  {
+    "id": 4,
+    "name": "swift",
+    "category": "Hatchbacks",
+    "imageName": "swift.png",
+    "description": "swift description"
+  },
+  {
+    "id": 5,
+    "name": "eeco",
+    "category": "Vans",
+    "imageName": "eeco.png",
+    "description": "eeco description"
+  },
+  {
+    "id": 6,
+    "name": "dzire",
+    "category": "Sedans",
+    "imageName": "dzire.png",
+    "description": "dzire description"
+  }
 ]

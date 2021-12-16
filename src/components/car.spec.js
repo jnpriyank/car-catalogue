@@ -4,7 +4,7 @@ import Car from "./car";
 
 describe("car component", () => {
   it("should render successfully", () => {
-    const wrapper = shallow(<Car name="800" imageName="800.png" ></Car>);
+    const wrapper = shallow(<Car name="800" imageName="800.png"></Car>);
     expect(wrapper).toMatchInlineSnapshot(`
     <figure
       className="body-item"
@@ -18,5 +18,5 @@ describe("car component", () => {
       </figcaption>
     </figure>
     `);
-});
+  });
 });
